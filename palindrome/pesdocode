@@ -1,0 +1,14 @@
+procedure BinarySearch(A : list of sorted items,target: item to search for)
+left -0
+right - length(A) -1
+while left <= right 
+mid = (left + right)/2
+if A[mid] equals target then 
+return mid // return the index the traget element is found
+else  if A[mid] < target then 
+left  = mid +1 // continue searching in the right half
+else 
+right = mid - 1// continue searching in the left half
+end if 
+end while 
+return  -1 // return -1 if the target element is not found in the list end procedure
