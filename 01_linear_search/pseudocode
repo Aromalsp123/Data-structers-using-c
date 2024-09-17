@@ -1,0 +1,8 @@
+procedure  LInearSearch(A : List of items, target : item to search for)
+n = length (A)
+ for i from 0 to n-1
+      if A[i] equals traget then 
+             return i //Return the index where the target element is found 
+      end if 
+ end for
+return -1// return -1 if the traget element is not found in the list end procedure
